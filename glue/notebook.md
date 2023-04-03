@@ -34,3 +34,8 @@
 * AWS Tutorials - Interactively Develop Glue Job using Jupyter Notebook in GlueStudio
 
   https://www.youtube.com/watch?v=n4PVC5O_tJo
+  
+  
+* AWS Glue Tutorial for Beginners [FULL COURSE in 45 mins]
+
+  https://www.youtube.com/watch?v=dQnRP6X8QAU
