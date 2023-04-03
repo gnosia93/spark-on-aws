@@ -1,4 +1,4 @@
-
+* 패키지 설치
 ```
 % pip3 install --upgrade jupyter boto3 aws-glue-sessions
 
@@ -7,6 +7,7 @@
 % sudo jupyter kernelspec install $SITE_PACKAGES/aws_glue_interactive_sessions_kernel/glue_spark 
 ```
 
+* 주피터 노트북 
 ```
  % jupyter notebook
 [I 21:50:22.545 NotebookApp] Loading IPython parallel extension
