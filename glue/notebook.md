@@ -31,6 +31,8 @@
 
 ## 참고자료 ##
 
+* https://aws.amazon.com/blogs/big-data/introducing-aws-glue-interactive-sessions-for-jupyter/
+
 * AWS Tutorials - Interactively Develop Glue Job using Jupyter Notebook in GlueStudio
 
   https://www.youtube.com/watch?v=n4PVC5O_tJo
