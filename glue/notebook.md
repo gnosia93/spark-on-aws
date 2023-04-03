@@ -26,3 +26,11 @@
         http://localhost:8888/?token=ee2b6a66b831feafe9f28132b4db7373cceb3625bdea4c3d
      or http://127.0.0.1:8888/?token=ee2b6a66b831feafe9f28132b4db7373cceb3625bdea4c3d
 ```
+
+
+
+## 참고자료 ##
+
+* AWS Tutorials - Interactively Develop Glue Job using Jupyter Notebook
+
+ https://www.youtube.com/watch?v=n4PVC5O_tJo
