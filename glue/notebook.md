@@ -32,7 +32,7 @@ Available kernels:
 
 ### 3. Glue 서비스롤 생성 ###
 
-IAM 에서 AWSGlueServiceRoleJupyter 라는 서비스 롤을 생성한다. 이때 Trusted Entity 는 Glue 이고, attach 되는 권한은 매니지드 권한인 AmazonS3FullAccess 와 AWSGlueServiceRole 이다.
+IAM 에서 AWSGlueServiceRoleJupyter 라는 서비스 롤을 생성한다. 이때 Trusted Entity 는 Glue 이고, attach 되는 권한은 매니지드 권한인 AmazonS3FullAccess 와 AWSGlueServiceRole 이다. 생성된 서비스 롤은 주피터 노트북에서 %iam_role arn:aws:iam::0000000000:role/AWSGlueServiceRoleJupyter 매직을 이용하여 사용된다. 
 
 
 ### 4. 주피터 노트북 실행 ### 
