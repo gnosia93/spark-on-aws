@@ -65,6 +65,9 @@ IAM 에서 AWSGlueServiceRoleJupyter 라는 서비스 롤을 생성한다. 이�
 --name covid-demo \
 --role "AWSGlueServiceRoleJupyter" \
 --command {"Name": "covid-demo-etl", "PythonVersion": "3", "ScriptLocation": "s3://glue-sink-20230404/covid-19.py"} \
+--default-arguments {"--enable-glue-datacatalog": "true"} \
+--number-of-workers 2 \
+--worker-type G.2X
 ```
 
 ## 참고자료 ##
