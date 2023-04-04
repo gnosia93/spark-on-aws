@@ -28,8 +28,11 @@ Available kernels:
 }
 
 % aws iam attach-user-policy --user-name username --policy-arn arn:aws:iam::aws:policy/AWSGlueConsoleFullAccess
-
 ```
+
+* Glue 서비스롤 설정
+IAM 에서 AWSGlueServiceRoleJupyter 라는 서비스 롤을 생성한다. 이때 Trusted Entity 는 Glue 이고, attach 되는 권한은 매니지드 권한인 AmazonS3FullAccess 와 AWSGlueServiceRole 이다.
+
 
 
 
