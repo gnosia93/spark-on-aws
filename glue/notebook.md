@@ -54,6 +54,8 @@ IAM 에서 AWSGlueServiceRoleJupyter 라는 서비스 롤을 생성한다. 이�
         http://localhost:8888/?token=ee2b6a66b831feafe9f28132b4db7373cceb3625bdea4c3d
      or http://127.0.0.1:8888/?token=ee2b6a66b831feafe9f28132b4db7373cceb3625bdea4c3d
 ```
+[New] -> [Glue Pyspark] 을 선택해서 새로운 노트북을 하나 띄운다. 
+
 
 ### 5. 샘플 프로그램 작성 ###
 
@@ -63,7 +65,13 @@ https://github.com/gnosia93/spark-on-aws/blob/main/glue/covid-19.ipynb
 
 ### 6. 파일변환 및 S3 업로드 ###
 
-ipython 매직은 수동으로 지워야 한다. 
+%glue_version 2.0
+%number_of_workers 2
+%worker_type G.2X
+%idle_timeout 60
+%region us-east-2
+%iam_role arn:aws:iam::0000000000:role/AWSGlueServiceRoleJupyter 등과 같은 
+ipython 매직은 nbconvert 를 이용하더라도 소스 코드에서 지워지지 않은 관계로 수동으로 지워야 한다. 
 
 ```
 % jupyter nbconvert --to script covid-19.ipynb
