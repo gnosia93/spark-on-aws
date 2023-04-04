@@ -7,6 +7,14 @@
 % SITE_PACKAGES=$(pip3 show aws-glue-sessions | grep Location | awk '{print $2}')
 % sudo jupyter kernelspec install $SITE_PACKAGES/aws_glue_interactive_sessions_kernel/glue_pyspark
 % sudo jupyter kernelspec install $SITE_PACKAGES/aws_glue_interactive_sessions_kernel/glue_spark 
+
+% jupyter kernelspec list
+Available kernels:
+  python3               /opt/anaconda3/share/jupyter/kernels/python3
+  apache_toree_scala    /usr/local/share/jupyter/kernels/apache_toree_scala
+  glue_pyspark          /usr/local/share/jupyter/kernels/glue_pyspark
+  glue_spark            /usr/local/share/jupyter/kernels/glue_spark
+  spylon-kernel         /usr/local/share/jupyter/kernels/spylon-kernel
 ```
 
 * 주피터 노트북 
