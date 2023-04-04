@@ -62,11 +62,16 @@ https://github.com/gnosia93/spark-on-aws/blob/main/glue/covid-19.ipynb
 ![](https://github.com/gnosia93/spark-on-aws/blob/main/glue/covid-19.png)
 
 ### 6. 파일변환 및 S3 업로드 ###
+
+ipython 매직은 수동으로 지워야 한다. 
+
 ```
 % jupyter nbconvert --to script covid-19.ipynb
 
 % aws s3 cp covid-19.py s3://glue-sink-20230404
 ```
+
+
 
 ### 7. glue 잡 등록 ###
 ```
