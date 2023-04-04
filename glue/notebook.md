@@ -65,13 +65,15 @@ https://github.com/gnosia93/spark-on-aws/blob/main/glue/covid-19.ipynb
 
 ### 6. 파일변환 및 S3 업로드 ###
 
+```
 %glue_version 2.0
 %number_of_workers 2
 %worker_type G.2X
 %idle_timeout 60
 %region us-east-2
-%iam_role arn:aws:iam::0000000000:role/AWSGlueServiceRoleJupyter 등과 같은 
-ipython 매직은 nbconvert 를 이용하더라도 소스 코드에서 지워지지 않은 관계로 수동으로 지워야 한다. 
+%iam_role arn:aws:iam::0000000000:role/AWSGlueServiceRoleJupyter 
+```
+등과 같은 ipython 매직은 nbconvert 를 이용하더라도 소스 코드에서 지워지지 않은 관계로 수동으로 지워야 한다. 
 
 ```
 % jupyter nbconvert --to script covid-19.ipynb
