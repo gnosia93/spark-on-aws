@@ -59,6 +59,7 @@ IAM 에서 AWSGlueServiceRoleJupyter 라는 서비스 롤을 생성한다. 이�
 
 https://github.com/gnosia93/spark-on-aws/blob/main/glue/covid-19.ipynb
 
+![](https://github.com/gnosia93/spark-on-aws/blob/main/glue/covid-19.png)
 
 ### 6. 파일변환 및 S3 업로드 ###
 ```
