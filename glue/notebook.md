@@ -57,6 +57,16 @@ IAM 에서 AWSGlueServiceRoleJupyter 라는 서비스 롤을 생성한다. 이�
 
 
 
+
+
+### 7. glue 잡 등록 ###
+```
+% aws glue create-job \
+--name covid-demo \
+--role "AWSGlueServiceRoleJupyter" \
+--command {"Name": "covid-demo-etl", "PythonVersion": "3", "ScriptLocation": "s3://glue-sink-20230404/covid-19.py"} \
+```
+
 ## 참고자료 ##
 
 * https://aws.amazon.com/blogs/big-data/introducing-aws-glue-interactive-sessions-for-jupyter/
