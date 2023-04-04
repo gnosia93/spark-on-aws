@@ -1,3 +1,5 @@
+아래는 로컬 PC 의 주피터 노트북을 이용해서 AWS Glue 와 interactive session 를 설정하는 데 필요한 과정을 나열한 것입니다..
+
 * 패키지 설치
 ```
 % pip3 install --upgrade jupyter boto3 aws-glue-sessions
