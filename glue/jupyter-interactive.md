@@ -16,6 +16,7 @@ Available kernels:
   glue_spark            /usr/local/share/jupyter/kernels/glue_spark
   spylon-kernel         /usr/local/share/jupyter/kernels/spylon-kernel
 ```
+커널 리스트에 glue_pyspark 과 glue_spark 이 보이면 정상적으로 설치된 것이다. 
 
 ### 2. 유저 권한 설정 ###
 
