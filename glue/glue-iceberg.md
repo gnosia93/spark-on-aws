@@ -1,3 +1,7 @@
+### 1. flight 테이블 생성하기 ###
+
+* s3://crawler-public-us-west-2/flight/2016/csv/
+
 
 
 
