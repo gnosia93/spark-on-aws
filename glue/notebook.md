@@ -57,7 +57,12 @@ IAM 에서 AWSGlueServiceRoleJupyter 라는 서비스 롤을 생성한다. 이�
 
 
 
+### 6. 파일변환 및 S3 업로드 ###
+```
+% jupyter nbconvert --to script covid-19.ipynb
 
+% aws s3 cp covid-19.py s3://glue-sink-20230404
+```
 
 ### 7. glue 잡 등록 ###
 ```
