@@ -59,6 +59,11 @@ IAM 에서 AWSGlueServiceRoleJupyter 라는 서비스 롤을 생성한다. 이�
 
 ### 5. 샘플 프로그램 작성 ###
 
+샘플 프로그램을 작성하기 전에 클라우드 포메이션으로 데이터를 먼저 빌드한다. us-east-2 리전의 glue 서비스에 COVID-19 데이터베이스와 관련 테이블 들이 생성도고, 원본 S3 로 경로가 설정된다.(cross account)  
+https://us-east-2.console.aws.amazon.com/cloudformation/home?region=us-east-2#/stacks/quickcreate?templateURL=https://covid19-lake.s3.us-east-2.amazonaws.com/cfn/CovidLakeStack.template.json&stackName=CovidLakeStack
+
+
+
 https://github.com/gnosia93/spark-on-aws/blob/main/glue/covid-19.ipynb
 
 ![](https://github.com/gnosia93/spark-on-aws/blob/main/glue/covid-19.png)
