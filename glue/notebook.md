@@ -73,6 +73,11 @@ https://github.com/gnosia93/spark-on-aws/blob/main/glue/covid-19.ipynb
 %region us-east-2
 %iam_role arn:aws:iam::0000000000:role/AWSGlueServiceRoleJupyter 
 ```
+```
+%%sql 
+show tables in `covid-19`
+```
+
 등과 같은 ipython 매직은 nbconvert 를 이용하더라도 소스 코드에서 지워지지 않은 관계로 수동으로 지워야 한다. 
 
 ```
