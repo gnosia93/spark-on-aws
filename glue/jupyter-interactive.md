@@ -25,10 +25,10 @@ Available kernels:
 {
     "UserId": "AIDAXITLFFBW6ZYSNWLEZ",
     "Account": "xxxxxxxxx",
-    "Arn": "arn:aws:iam::xxxxxxxxx:user/username"
+    "Arn": "arn:aws:iam::xxxxxxxxx:user/soonbeom"
 }
 
-% aws iam attach-user-policy --user-name username --policy-arn arn:aws:iam::aws:policy/AWSGlueConsoleFullAccess
+% aws iam attach-user-policy --user-name soonbeom --policy-arn arn:aws:iam::aws:policy/AWSGlueConsoleFullAccess
 ```
 
 ### 3. Glue 서비스롤 생성 ###
