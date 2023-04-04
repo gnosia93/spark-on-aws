@@ -1,6 +1,6 @@
 아래는 로컬 PC 의 주피터 노트북을 이용해서 AWS Glue 와 interactive session 를 설정하는 데 필요한 과정을 나열한 것입니다..
 
-* 패키지 설치
+### 1. 패키지 설치 ###
 ```
 % pip3 install --upgrade jupyter boto3 aws-glue-sessions
 
@@ -17,7 +17,7 @@ Available kernels:
   spylon-kernel         /usr/local/share/jupyter/kernels/spylon-kernel
 ```
 
-* 유저 권한 설정
+### 2. 유저 권한 설정 ###
 
 ```
 % aws sts get-caller-identity
@@ -30,14 +30,12 @@ Available kernels:
 % aws iam attach-user-policy --user-name username --policy-arn arn:aws:iam::aws:policy/AWSGlueConsoleFullAccess
 ```
 
-* Glue 서비스롤 설정
+### 3. Glue 서비스롤 생성 ###
 
 IAM 에서 AWSGlueServiceRoleJupyter 라는 서비스 롤을 생성한다. 이때 Trusted Entity 는 Glue 이고, attach 되는 권한은 매니지드 권한인 AmazonS3FullAccess 와 AWSGlueServiceRole 이다.
 
 
-
-
-* 주피터 노트북 
+### 4. 주피터 노트북 실행 ### 
 ```
  % jupyter notebook
 [I 21:50:22.545 NotebookApp] Loading IPython parallel extension
