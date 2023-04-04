@@ -17,6 +17,22 @@ Available kernels:
   spylon-kernel         /usr/local/share/jupyter/kernels/spylon-kernel
 ```
 
+* 유저 권한 설정
+
+```
+% aws sts get-caller-identity
+{
+    "UserId": "AIDAXITLFFBW6ZYSNWLEZ",
+    "Account": "xxxxxxxxx",
+    "Arn": "arn:aws:iam::xxxxxxxxx:user/username"
+}
+
+% aws iam attach-user-policy --user-name username --policy-arn arn:aws:iam::aws:policy/AWSGlueConsoleFullAccess
+
+```
+
+
+
 * 주피터 노트북 
 ```
  % jupyter notebook
