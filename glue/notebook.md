@@ -68,6 +68,9 @@ IAM 에서 AWSGlueServiceRoleJupyter 라는 서비스 롤을 생성한다. 이�
 --default-arguments '{"--enable-glue-datacatalog": "true"}' \
 --number-of-workers 2 \
 --worker-type G.2X
+{
+    "Name": "covid-demo"
+}
 ```
 
 ## 참고자료 ##
