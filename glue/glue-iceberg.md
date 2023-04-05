@@ -10,6 +10,17 @@ glue 콘솔에서 sample 데이터베이스를 생성한다.
   ![](https://github.com/gnosia93/spark-on-aws/blob/main/glue/image/glue-table.png)
 
 
+
+### 오류 메시지 ###
+
+* An error occurred while calling o92.sql. Cannot find catalog plugin class for catalog 'glue_catalog': org.apache.iceberg.spark.SparkCatalog
+
+--> job 파리미터를 설정한다.
+
+--datalake-formats = iceberg
+
+
+
 ## 참고자료 ##
 
 * [AWS Glue Data Catalog 시작하기](https://docs.aws.amazon.com/ko_kr/glue/latest/dg/start-data-catalog.html)
