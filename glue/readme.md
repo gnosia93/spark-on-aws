@@ -1,8 +1,8 @@
-* [인터랙티브 노트북 설정하기](https://github.com/gnosia93/spark-on-aws/blob/main/glue/jupyter-interactive.md)
+* [GLUE 인터랙티브 노트북 설정하기](https://github.com/gnosia93/spark-on-aws/blob/main/glue/jupyter-interactive.md)
 
 * [CSV 를 파퀘어 변환하기 및 파티셔닝 적용](https://github.com/gnosia93/spark-on-aws/blob/main/glue/parquet-sample.ipynb)
 
-* [아파치 아이스버그 테이블 다루기]()
+* [GLUE 인터랙티브 노트북에서 아파치 IceBerg 테이블 다루기](https://github.com/gnosia93/spark-on-aws/blob/main/glue/apache-iceberg.ipynb)
 
 
 
