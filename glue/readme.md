@@ -2,7 +2,7 @@
 
 * [CSV 를 파퀘어 변환하기 및 파티셔닝 적용](https://github.com/gnosia93/spark-on-aws/blob/main/glue/parquet-sample.ipynb)
 
-* [아이스버그 테이블 다루기]()
+* [아파치 아이스버그 테이블 다루기]()
 
 
 
