@@ -4,7 +4,7 @@
 
 * [GLUE 인터랙티브 노트북에서 아파치 IceBerg 테이블 다루기](https://github.com/gnosia93/spark-on-aws/blob/main/glue/apache-iceberg.ipynb)
 
-* [GLUE Studio 로 glue 4.0 테스트](https://github.com/gnosia93/spark-on-aws/blob/main/glue/glue-job4.md)
+* [glue 4.0 DML 테스트](https://github.com/gnosia93/spark-on-aws/blob/main/glue/glue-job4.md)
 
 
 ## 참고자료 ##
