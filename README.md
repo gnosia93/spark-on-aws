@@ -28,3 +28,4 @@ report1683008143128.csv: text/csv; charset=iso-8859-1
 
 * https://catalog.us-east-1.prod.workshops.aws/workshops/aaaabcab-5e1e-4bff-b604-781a804763e1/en-US/intro 
 
+* https://aws.amazon.com/blogs/big-data/run-aws-glue-crawlers-using-amazon-s3-event-notifications/
