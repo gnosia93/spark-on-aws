@@ -9,3 +9,10 @@
 
 
 * [주피터 노트북 엑셀 한글 깨짐](https://todaysdata.tistory.com/5)
+
+* 맥에서 파일 인코딩 확인
+
+```
+% file -I report1683008143128.csv
+report1683008143128.csv: text/csv; charset=iso-8859-1
+```
