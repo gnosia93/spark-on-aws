@@ -6,3 +6,6 @@
 
 
 * https://cjw-awdsd.tistory.com/53
+
+
+* [주피터 노트북 엑셀 한글 깨짐](https://todaysdata.tistory.com/5)
